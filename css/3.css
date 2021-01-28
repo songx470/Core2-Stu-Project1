@@ -1,0 +1,23 @@
+body{
+  text-align:center;
+}
+
+h1,h2{
+  font-family:'Open Sans', sans-serif;
+  font-size:1.5rem;
+  font-weight:800;
+  padding:2rem;
+  white-space:wrap;
+  margin-left:22rem;
+  margin-right:22rem;
+  margin-bottom:1rem
+
+}
+
+footer{
+	padding:-4rem;
+}
+
+iframe{
+	margin-top:6rem;
+}

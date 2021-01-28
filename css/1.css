@@ -1,0 +1,19 @@
+body{
+  text-align:center;
+}
+
+h1,h2{
+  font-family:'Open Sans', sans-serif;
+  font-size:1.5rem;
+  font-weight:800;
+  padding:2rem;
+  white-space:wrap;
+  margin-left:22rem;
+  margin-right:22rem;
+  margin-top:-0.2rem;
+  margin-bottom:-0.2rem;
+}
+
+footer{
+	padding:-4rem;
+}

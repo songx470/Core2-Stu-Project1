@@ -1,0 +1,12 @@
+body{
+  text-align:center;
+  padding: 20px;
+  margin: 230px auto;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight:700;
+  font-family:'Robot', sans-serif;
+  text-align: center;
+
