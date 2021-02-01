@@ -1,12 +1,36 @@
 body{
-  text-align:center;
-  padding: 20px;
+  padding: 100px;
+  margin: 10rem;
+  color: #FFF;
   margin: 230px auto;
+  background-color:black;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  line-height: 5rem;
 }
 
-h1 {
+p {
   font-size: 5rem;
+  font-color: white;
   font-weight:700;
-  font-family:'Robot', sans-serif;
-  text-align: center;
+  text-align:left;
+}
+
+a {
+  color: #47afdc;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+}
+
+.click {
+  grid-column:1 / 9;
+}
+
+li {
+  font-size: 1.20rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  padding: .5rem 0;
+}
 
