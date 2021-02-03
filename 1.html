@@ -22,37 +22,102 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
+<body>
+
+  <!-- 主体框架 -->
+  <div id="wrapper">
+
+    <!-- 1列 -->
+    <section class="spo">
+      <iframe class="spotify" src="https://open.spotify.com/embed/track/2nr2nZscQKGywtgHTUj1b7" width="400" height="80" frameborder="0"
+      allowtransparency="true" allow="encrypted-media"></iframe>
+
+      <iframe src="https://assets.pinterest.com/ext/embed.html?id=391883605061443295" height="620" width="400"
+        frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <!-- 2列 -->
+    <section class="grocery">
+      <iframe src="https://assets.pinterest.com/ext/embed.html?id=611645193140877361" height="783" width="450"
+        frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <!-- 3列 -->
+    <section class="store">
+      <iframe src="https://assets.pinterest.com/ext/embed.html?id=611645193140829980" height="850" width="410"
+        frameborder="0" scrolling="no"></iframe>
+    </section>
+
+  </div>
+
 <style>
-body {
-  background-image: url("img/7.png");
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 9px 0;
+
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+    top: 82%;
+   left: 6%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 </style>
 
-<body>
-  <div class="wrap">
-  <section class="spo">
-  <iframe src="https://open.spotify.com/embed/track/2nr2nZscQKGywtgHTUj1b7" width="400" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
- </section>
 
-  <section class="pin">
-  <iframe src="https://assets.pinterest.com/ext/embed.html?id=391883605061443295" height="620" width="400" frameborder="0" scrolling="no" ></iframe>
- </section>
+ <!-- 尾部 -->
+  <style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 9px 0;
 
- <section class="grocery">
- <iframe src="https://assets.pinterest.com/ext/embed.html?id=611645193140877361" height="783" width="450" frameborder="0" scrolling="no" ></iframe>
- </section>
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+    top: 82%;
+   left: 6%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
 
- <section class="store">
- <iframe src="https://assets.pinterest.com/ext/embed.html?id=611645193140829980" height="850" width="450" frameborder="0" scrolling="no" ></iframe>
-</section>
 
- </div>
+  <!-- 尾部 -->
+  <section class="but">
+      <div class="tooltip">
+      <button><a href="4.html"></a></button>
+      <span class="tooltiptext">what happen next?</span>
+</div>
 
-<footer> 
-    <ul>
-          <li><a href="2.html">What's the task?</a></li>
-      </ul>
-</footer>
+  </section>
 
 </body>
+
 </html>

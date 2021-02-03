@@ -22,23 +22,67 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<style>
-body {
-  background-image: url("img/7.png");
+<body>
+
+  <!-- 主体框架 -->
+  <div id="wrapper">
+
+    <!-- 1列 -->
+    <section class="spo">
+      <iframe class="youtube" src="https://assets.pinterest.com/ext/embed.html?id=369576713173385292"height="480" width="500"
+        frameborder="0" scrolling="no"></iframe>
+      <iframe  src="
+      https://www.youtube.com/embed/cu38F7beXj0" width="500" height="220" frameborder="0"
+      allowtransparency="true" allow="encrypted-media"></iframe>
+
+    </section>
+
+    <!-- 2列 -->
+    <section class="grocery">
+      <iframe src="https://assets.pinterest.com/ext/embed.html?id=307863324531727379"height="850" width="800"
+        frameborder="0" scrolling="no"></iframe>
+    </section>
+
+  </div>
+
+  <style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 9px 0;
+
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+    top: 82%;
+   left: 6%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 </style>
 
 
-</head>
-<body>
-	<h1> The task is - to grab everything as many as you can in eight minus!</h1>
-	<iframe width="1008" height="567" src="https://www.youtube.com/embed/CUaxwF-egII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	<h2>So you try your best to run around and stuff food into your bag. ‘beep beep’ The alarm rings and reminds you time is up, you then run out of the store and see.. </h2>
-	<footer> 
-		<ul>
-          <li><a href="3.html">What do you see?</a></li>
-      </ul>
-</footer>
+  <!-- 尾部 -->
+  <section class="but">
+      <div class="tooltip">
+      <button><a href="3.html"></a></button>
+      <span class="tooltiptext">What do you see?</span>
+</div>
+
+  </section>
 
 </body>
+
 </html>

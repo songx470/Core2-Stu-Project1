@@ -1,5 +1,4 @@
 <!doctype html>
-<!doctype html>
 <html class="no-js" lang="">
 
 <head>
@@ -23,19 +22,75 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<style>
-body {
-  background-image: url("img/7.png");
+<body>
+
+  <!-- 主体框架 -->
+  <div id="wrapper">
+
+    <!-- 1列 -->
+    <section class="spo">
+      <iframe class="tornado" src="https://assets.pinterest.com/ext/embed.html?id=611645193140829964" width="360" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+      <iframe src="https://assets.pinterest.com/ext/embed.html?id=256634878752499406" height="360" width="360"
+        frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <!-- 2列 -->
+    <section class="grocery">
+      <iframe src="https://assets.pinterest.com/ext/embed.html?id=77335318581140886" height="900" width="450"
+        frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <!-- 3列 -->
+     <section class="spo">
+
+      <iframe class="tornado"src="https://assets.pinterest.com/ext/embed.html?id=256634878752499406" height="360" width="360"
+      frameborder="0" scrolling="no"></iframe>
+
+      <iframe  src="https://assets.pinterest.com/ext/embed.html?id=611645193140829964" width="360" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </section>
+
+  </div>
+
+  <!-- 尾部 -->
+  <style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 9px 0;
+
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+    top: 82%;
+   left: 6%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 </style>
 
-<body>
-	
-	<iframe width="1008" height="567" src="https://www.youtube.com/embed/-uc-5wgTHTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<ul>
-          <li><a href="4.html">What happen next?</a></li>
-      </ul>
-</footer>
+
+  <!-- 尾部 -->
+  <section class="but">
+      <div class="tooltip">
+      <button><a href="4.html"></a></button>
+      <span class="tooltiptext">what happen next?</span>
+</div>
+
+  </section>
 
 </body>
+
 </html>

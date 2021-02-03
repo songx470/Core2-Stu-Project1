@@ -1,9 +1,8 @@
 body{
-  text-align:center;
   background-size:100% 100%;
   background-repeat: no-repeat;
   background-color:black;
-
+  background-image: url("../img/9.png");
 }
 
 h1,h2{
@@ -12,15 +11,109 @@ h1,h2{
   font-weight:800;
   padding:2rem;
   white-space:wrap;
-  margin-left:22rem;
   margin-right:22rem;
   margin-bottom:1rem;
 }
 
 footer{
-	padding:-4rem;
+  font-family: Robot;
+  color:white;
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  margin-left: -64.5px;
+  margin-top: -85.5px;
+
 }
 
-iframe{
-	padding:2rem;
+/* 主体 */
+#wrapper{
+  /* 宽度 */
+  width: 90%;
+
+  /* 外间距 上下为0 左右自动（居中） */
+  margin: 0 auto;
+
+  /* 最小宽度1600px */
+  min-width: 1000px;
+
+  /* 上间距 */
+  margin-top: 30px;
+}
+
+/* 通用内容框架 */
+#wrapper section{
+
+  /* 分为3列 每列33.33% ， 去掉两边外间距2% x 2 = 6% */
+  width: 23%;
+
+  /* 左浮动 */
+  float: left;
+
+  /* 外间距 上下0 左右2% */
+  margin: 0，2%;
+
+  /* 最小狂赌450px */
+  min-width: 450px;
+}
+
+#wrapper section iframe{
+  /* 元素将显示为块级元素 */
+  display: block;
+  /* 外间距 上下为0 左右自动（居中） */
+  margin: 0 auto;
+}
+
+#wrapper .youtube{
+  /* 下间距90px */
+  margin-bottom: 60px;
+}
+
+#wrapper .spotify{
+  /* 下间距90px */
+  margin-bottom: 10px;
+}
+
+.container {
+  position: absolute;
+  top: 85%;
+  left: 15%;
+  margin-left: -64.5px;
+  margin-top: -85.5px;
+}
+
+.ghost {
+  animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+  50% {
+     transform: translate(0, 20px);
+  }
+}
+.shadowFrame {
+  width: 130px;
+  margin-top: 15px;
+}
+.shadow {
+  animation: shrink 3s ease-out infinite;
+  transform-origin: center center;
+  ellipse {
+    transform-origin: center center;
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 90%;
+    margin: 0 5%;
+  }
+  50% {
+    width: 60%;
+    margin: 0 18%;
+  }
+  100% {
+    width: 90%;
+    margin: 0 5%;
+  }
 }
